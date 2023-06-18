@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HW_BostonCrime:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW_BostonCrime_jar</output-path>
+    <root id="archive" name="HW_BostonCrime.jar">
+      <element id="module-output" name="HW_BostonCrime" />
+    </root>
+  </artifact>
+</component>
