@@ -43,8 +43,8 @@ object DM_Boston_Crime{
       // .agg(percentile_approx("*",YEAR,MONTH)).alias("crimes_monthly")
       // .agg(("*")).alias("frequent_crime_types")
       // .agg(("*")).alias("crime_type")
-      .agg(avg("Lat")).alias("lat")
-      .agg(avg("Long")).alias("lng")
+//      .agg(avg("Lat")).alias("lat")
+//      .agg(avg("Long")).alias("lng")
       .write.parquet(out_path + "/datamart" + TS2Date() + ".parquet")
 
     spark.stop()
