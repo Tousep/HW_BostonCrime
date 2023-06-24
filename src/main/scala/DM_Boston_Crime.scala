@@ -12,7 +12,7 @@ object DM_Boston_Crime{
   }
 
   def main(args: Array[String]): Unit = {
-    if (args.length < 2) {
+    if (args.length != 2) {
       System.err.println("Invalid args")
       System.exit(1)
     }
